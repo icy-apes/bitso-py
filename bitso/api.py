@@ -89,7 +89,7 @@ class Api(object):
   
         """
         self.base_url_v2 = "https://bitso.com/api/v2"
-        self.base_url = "https://bitso.com/api/v3"
+        self.base_url = "https://stage.bitso.com/api/v3"
         self.key = key
         self._secret = secret
         self.timeout = timeout
